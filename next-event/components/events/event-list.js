@@ -1,4 +1,5 @@
 import EventItem from "./event-item";
+import styleClass from './event-list.module.css'
 
 function EventList(props) {
   //  object destructuring
@@ -6,7 +7,7 @@ function EventList(props) {
   //  of simply using props.items
 
   return (
-    <ul>
+    <ul className={styleClass.list}>
       {items.map((event) => {
         return (
           <EventItem

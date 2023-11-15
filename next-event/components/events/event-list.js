@@ -1,5 +1,5 @@
 import EventItem from "./event-item";
-import styleClass from './event-list.module.css'
+import styleClass from "./event-list.module.css";
 
 function EventList(props) {
   //  object destructuring
